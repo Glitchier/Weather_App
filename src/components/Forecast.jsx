@@ -20,9 +20,9 @@ const Forecast = (props) => {
         src={`./src/assets/icons/${icon}.png`}
         alt="icon"
       />
-      <p className="text-lg font-medium">{Math.floor(temp)} °C</p>
-      <p className="text-sm capitalize">{desc}</p>
-      <p className="text-md font-semibold">{strDay}</p>
+      <p className="text-xl font-medium">{Math.floor(temp)} °C</p>
+      <p className="font-medium capitalize">{desc}</p>
+      <p className="text-[0.9rem] font-semibold">{strDay}</p>
     </div>
   );
 };
